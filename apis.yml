@@ -1,17 +1,73 @@
 aid: 8financialservices
 name: 8 Financial Intelligence
-description: '8 Financial Intelligence is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  8 Financial Intelligence (8FI) is a privately held artificial-intelligence research and
+  deployment company focused on financial engineering, established in 2016 under the name
+  Snyamic Technology Limited (動力科創有限公司) and headquartered in Hong Kong SAR, with stated
+  operations and partnerships in Cyprus, Estonia, Israel, Singapore and the United States.
+  Its publicly stated positioning is autonomous AI and financial-engineering systems rather
+  than a packaged product, and its only reported financing is HKD 2.3 billion (roughly USD
+  300 million) from Parallel Strategy, an alternative asset manager investing in large-scale
+  AI technology and infrastructure. Every one of these facts is drawn from a single public
+  source — the EquityZen secondary-market listing recorded below — because API Evangelist
+  could not locate a company-controlled website, developer portal, documentation host,
+  GitHub organisation or any other first-party property for 8 Financial Intelligence. The
+  company therefore has no observable API surface: no public API, SDK, webhook catalogue,
+  MCP server, agent card or machine-readable specification of any kind was found, and none
+  could be probed, because no host attributable to the company was discoverable to probe.
+  This profile is a factual record of what is publicly observable, not an assessment of the
+  company's technology.
 url: https://raw.githubusercontent.com/api-evangelist/8financialservices/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
+x-tier-reason: no-discoverable-web-presence
+x-founded: '2016'
+x-former-name: Snyamic Technology Limited (動力科創有限公司)
+x-headquarters: Hong Kong SAR
+x-domain-status: not-found
+x-domain-note: >-
+  No company-controlled domain was found for 8 Financial Intelligence. The obvious brand
+  candidates were probed and every one of them is a parked or brokered domain rather than a
+  company property: 8fi.com is on Sedo nameservers and its apex 403s straight to a Sedo sales
+  lander, 8fi.ai resolves to a parity.domains parking lander with an empty <title>, 8fi.co
+  times out, eightfi.com 200s onto a namebamboo.com "premium asset" for-sale page, and
+  8fi.net, 8fi.hk, 8fi.com.hk, 8fi.global, 8fi.asia, 8fi.group, 8fi.tech, 8fi.dev,
+  8fi.finance, eightfi.ai, 8financialintelligence.com, 8financialintelligence.ai,
+  snyamic.com, snyamic.hk, snyamic.io and snyamic.tech do not resolve in DNS at all. No
+  GitHub organisation matching the brand exists either. Because there is no host attributable
+  to the company, no Website pointer is wired and no contract, well-known, agent-card or
+  llms.txt probe could be run against a company property — the STEP 0b discovery sweep had
+  nowhere to point.
+x-venue-listings:
+- venue: EquityZen
+  url: https://equityzen.com/company/8financialservices/
+  status: 200
+  note: >-
+    Secondary-market share listing. Source of the harvest entry and of every descriptive fact
+    in this record. Recorded here and wired as a SecondaryMarket pointer rather than as a
+    common[] Website pointer: a trading-venue listing page is a third party's page about the
+    company, not the company's own web presence, and wiring it as Website would credit
+    discoverability for a site that was never found (roadmap#56).
+- venue: Crunchbase
+  url: https://www.crunchbase.com/organization/8-financial-services
+  status: 403
+  note: >-
+    A Crunchbase organisation profile exists at this slug but returned 403 to our crawler, so
+    nothing was read from it. Recorded as a lead, not as evidence.
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Artificial Intelligence
+- Financial Engineering
+- Financial Services
+- Fintech
+- Data and Analytics
+- Machine Learning
+- Hong Kong
+- Private Company
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +75,35 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://equityzen.com/company/8financialservices
+- type: SecondaryMarket
+  url: https://equityzen.com/company/8financialservices/
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    8 Financial Intelligence has no discoverable first-party web presence at all — the only
+    public page about the company is its EquityZen secondary-market listing, which carries a
+    description and funding figure but no outbound company link, no logo link and no domain,
+    while the brand-obvious domains are all parked or brokered (8fi.com 403s to a Sedo sales
+    lander, 8fi.ai serves a parity.domains parking page, eightfi.com redirects to a
+    namebamboo.com for-sale page) and sixteen other candidate domains plus every
+    snyamic.* variant of the company's former name do not resolve in DNS, so there was no
+    company-controlled host against which to probe for an OpenAPI, GraphQL, MCP, agent card,
+    well-known document or llms.txt.
+  evidence:
+  - url: https://equityzen.com/company/8financialservices/
+    status: 200
+  - url: https://www.crunchbase.com/organization/8-financial-services
+    status: 403
+  - url: http://8fi.com/
+    status: 403
+  - url: http://8fi.ai/
+    status: 200
+  - url: https://eightfi.com/
+    status: 200
+  checked: '2026-09-05'
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v3

@@ -64,5 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-8 Financial Intelligence is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/8financialservices
+8 Financial Intelligence (8FI) is a privately held artificial-intelligence research and
+deployment company focused on financial engineering, established in 2016 as Snyamic Technology
+Limited (動力科創有限公司) and headquartered in Hong Kong SAR, with stated operations and
+partnerships in Cyprus, Estonia, Israel, Singapore and the United States. Its only reported
+financing is HKD 2.3 billion (roughly USD 300 million) from Parallel Strategy.
+
+**There is no API surface to profile, and no company website to profile it from.** Every fact
+above comes from one public page — the EquityZen secondary-market listing — because no
+company-controlled website, developer portal, documentation host or GitHub organisation could be
+found for 8 Financial Intelligence. The brand-obvious domains are parked or brokered (`8fi.com`
+403s to a Sedo sales lander, `8fi.ai` serves a parking page, `eightfi.com` redirects to a
+domain-for-sale listing) and sixteen further candidates, including every `snyamic.*` variant of
+the former name, do not resolve in DNS. With no host attributable to the company, the contract
+discovery sweep — OpenAPI, GraphQL, MCP, A2A agent card, `/.well-known/`, `llms.txt` — had
+nowhere to point. See `x-coverage` in `apis.yml` for the probed URLs and their statuses.
+
+- EquityZen listing: https://equityzen.com/company/8financialservices/ (HTTP 200)
+- Crunchbase profile: https://www.crunchbase.com/organization/8-financial-services (HTTP 403, unread)
