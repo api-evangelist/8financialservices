@@ -62,10 +62,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Financial Engineering
-- Financial-Services
+- Financial Services
 - Fintech
 - Data & Analytics
-- Machine-Learning
+- Machine Learning
 - Hong Kong
 - Private Company
 tags_raw:
@@ -78,6 +78,8 @@ tags_raw:
 - Machine Learning
 - Hong Kong
 - Private Company
+- Financial-Services
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
