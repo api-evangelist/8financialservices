@@ -64,21 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-8 Financial Intelligence (8FI) is a privately held artificial-intelligence research and
-deployment company focused on financial engineering, established in 2016 as Snyamic Technology
-Limited (動力科創有限公司) and headquartered in Hong Kong SAR, with stated operations and
-partnerships in Cyprus, Estonia, Israel, Singapore and the United States. Its only reported
-financing is HKD 2.3 billion (roughly USD 300 million) from Parallel Strategy.
+8 Financial Intelligence (8FI) is a privately held artificial-intelligence research and deployment company focused on financial engineering, established in 2016 under the name Snyamic Technology Limited (動力科創有限公司) and headquartered in Hong Kong SAR, with stated operations and partnerships in Cyprus, Estonia, Israel, Singapore and the United States. Its publicly stated positioning is autonomous AI and financial-engineering systems rather than a packaged product, and its only reported financing is HKD 2.3 billion (roughly USD 300 million) from Parallel Strategy, an alternative asset manager investing in large-scale AI technology and infrastructure. Every one of these facts is drawn from a single public source — the EquityZen secondary-market listing recorded below — because API Evangelist could not locate a company-controlled website, developer portal, documentation host, GitHub organisation or any other first-party property for 8 Financial Intelligence. The company therefore has no observable API surface: no public API, SDK, webhook catalogue, MCP server, agent card or machine-readable specification of any kind was found, and none could be probed, because no host attributable to the company was discoverable to probe. This profile is a factual record of what is publicly observable, not an assessment of the company's technology.
 
-**There is no API surface to profile, and no company website to profile it from.** Every fact
-above comes from one public page — the EquityZen secondary-market listing — because no
-company-controlled website, developer portal, documentation host or GitHub organisation could be
-found for 8 Financial Intelligence. The brand-obvious domains are parked or brokered (`8fi.com`
-403s to a Sedo sales lander, `8fi.ai` serves a parking page, `eightfi.com` redirects to a
-domain-for-sale listing) and sixteen further candidates, including every `snyamic.*` variant of
-the former name, do not resolve in DNS. With no host attributable to the company, the contract
-discovery sweep — OpenAPI, GraphQL, MCP, A2A agent card, `/.well-known/`, `llms.txt` — had
-nowhere to point. See `x-coverage` in `apis.yml` for the probed URLs and their statuses.
+**Areas:** Company · Artificial Intelligence · Financial Engineering · Financial Services · Fintech · Data & Analytics · Machine Learning · Hong Kong · Private Company
 
-- EquityZen listing: https://equityzen.com/company/8financialservices/ (HTTP 200)
-- Crunchbase profile: https://www.crunchbase.com/organization/8-financial-services (HTTP 403, unread)
+## 8 Financial Intelligence on APIs.io
+
+Everything profiled for 8 Financial Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/8financialservices/](https://apis.io/providers/8financialservices/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 8 Financial Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/8financialservices/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
